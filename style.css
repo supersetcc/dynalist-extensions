@@ -172,36 +172,41 @@ Specialized Color Labels For Color Tags 1 and 2
 .Node-contentContainer.has-color.mod-color-label-1:before {
 	background: FireBrick;
 }
+.Node-contentContainer.has-color.mod-color-label-4:before {
+	content: "";
+	position: absolute;
+	top: 2px;
+	left: -6px;
+	width: 6px;
+	height: 20px;
+	border-radius: 2px;
+}
+.Node-contentContainer.has-color.mod-color-label-4:before {
+	background: #007510 !important;
+}
 
 /*----------------------------------
 Specialized Color Labels For Color Tags 3,4,5,6
 ----------------------------------*/
 .set-color-label[data-color="3"], .Node-contentContainer.mod-color-label-3 {
-	background: #FFF9D3 !important;
+	background: #ffc4c7 !important;
 	padding-left: 3px !important;
-	border-left: solid #FFE84A;
-	border-radius: 0;
-	max-width: 70%;
-}
-.set-color-label[data-color="4"], .Node-contentContainer.mod-color-label-4 {
-	background: #C2E0C6 !important;
-	padding-left: 3px !important;
-	border-left: solid green;
+	border-left: solid FireBrick;
 	border-radius: 0;
 	max-width: 70%;
 }
 .set-color-label[data-color="5"], .Node-contentContainer.mod-color-label-5 {
-	background: #EDF4FF !important;
+	background: #ffd7ab !important;
 	padding-left: 3px !important;
-	border-left: solid #09387D;
+	border-left: solid #ff8700;
 	border-radius: 0;
 	color: #09387D !important;
 	max-width: 70%;
 }
 .set-color-label[data-color="6"], .Node-contentContainer.mod-color-label-6 {
-	background: #F6EBFC !important;
+	background: #cae3cd !important;
 	padding-left: 3px !important;
-	border-left: solid purple;
+	border-left: solid #007510;
 	border-radius: 0;
 	max-width: 70%;
 }

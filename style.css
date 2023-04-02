@@ -144,70 +144,106 @@ a[title^="Filter #d-workflow"]{
 /* ----------------------------------
 Specialized Color Labels For Color Tags 1 and 2
 ----------------------------------*/
-.Node-contentContainer.has-color.mod-color-label-2:before {
-	background: #ff8700;
-}
 .Node-contentContainer.has-color {
 	background: none;
 	position: relative;
 }
-.Node-contentContainer.has-color.mod-color-label-2:before {
-	content: "";
-	position: absolute;
-	top: 2px;
-	left: -6px;
-	width: 6px;
-	height: 20px;
-	border-radius: 2px;
-}
+
 .Node-contentContainer.has-color.mod-color-label-1:before {
 	content: "";
 	position: absolute;
-	top: 2px;
+	top: 0px;
 	left: -6px;
 	width: 6px;
-	height: 20px;
+	height: 22px;
 	border-radius: 2px;
 }
 .Node-contentContainer.has-color.mod-color-label-1:before {
 	background: FireBrick;
 }
+
+.Node-contentContainer.has-color.mod-color-label-2:before {
+	background: #ff8700;
+}
+.Node-contentContainer.has-color.mod-color-label-2:before {
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: -6px;
+	width: 6px;
+	height: 22px;
+	border-radius: 2px;
+}
+
+.Node-contentContainer.has-color.mod-color-label-3:before {
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: -6px;
+	width: 6px;
+	height: 22px;
+	border-radius: 2px;
+}
+.Node-contentContainer.has-color.mod-color-label-3:before {
+	background: #007510 !important;
+}
+
 .Node-contentContainer.has-color.mod-color-label-4:before {
 	content: "";
 	position: absolute;
-	top: 2px;
+	top: 0px;
 	left: -6px;
 	width: 6px;
-	height: 20px;
+	height: 22px;
 	border-radius: 2px;
 }
 .Node-contentContainer.has-color.mod-color-label-4:before {
+	background: Black !important;
+}
+
+.Node-contentContainer.has-color.mod-color-label-5:before {
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: -6px;
+	width: 6px;
+	height: 22px;
+	border-radius: 2px;
+}
+.Node-contentContainer.has-color.mod-color-label-5:before {
+	background: FireBrick !important;
+}
+
+.Node-contentContainer.has-color.mod-color-label-6:before {
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: -6px;
+	width: 6px;
+	height: 22px;
+	border-radius: 2px;
+}
+.Node-contentContainer.has-color.mod-color-label-6:before {
 	background: #007510 !important;
 }
 
 /*----------------------------------
 Specialized Color Labels For Color Tags 3,4,5,6
 ----------------------------------*/
-.set-color-label[data-color="3"], .Node-contentContainer.mod-color-label-3 {
-	background: #ffc4c7 !important;
-	padding-left: 3px !important;
+.set-color-label[data-color="5"], .Node-contentContainer.mod-color-label-5 {
+	background: #fce3e3 !important;
+	padding-left: 4.2px !important;
 	border-left: solid FireBrick;
 	border-radius: 0;
-	max-width: 70%;
-}
-.set-color-label[data-color="5"], .Node-contentContainer.mod-color-label-5 {
-	background: #ffd7ab !important;
-	padding-left: 3px !important;
-	border-left: solid #ff8700;
-	border-radius: 0;
-	color: #09387D !important;
+	left: -2.5px;
 	max-width: 70%;
 }
 .set-color-label[data-color="6"], .Node-contentContainer.mod-color-label-6 {
 	background: #cae3cd !important;
-	padding-left: 3px !important;
+	padding-left: 4.2px !important;
 	border-left: solid #007510;
 	border-radius: 0;
+	left: -2.5px;
 	max-width: 70%;
 }
 

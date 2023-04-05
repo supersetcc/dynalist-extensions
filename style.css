@@ -201,32 +201,6 @@ Specialized Color Labels For Color Tags 1 and 2
 	background: Black !important;
 }
 
-.Node-contentContainer.has-color.mod-color-label-5:before {
-	content: "";
-	position: absolute;
-	top: 0px;
-	left: -6px;
-	width: 6px;
-	height: 22px;
-	border-radius: 2px;
-}
-.Node-contentContainer.has-color.mod-color-label-5:before {
-	background: FireBrick !important;
-}
-
-.Node-contentContainer.has-color.mod-color-label-6:before {
-	content: "";
-	position: absolute;
-	top: 0px;
-	left: -6px;
-	width: 6px;
-	height: 22px;
-	border-radius: 2px;
-}
-.Node-contentContainer.has-color.mod-color-label-6:before {
-	background: #007510 !important;
-}
-
 /*----------------------------------
 Specialized Color Labels For Color Tags 3,4,5,6
 ----------------------------------*/

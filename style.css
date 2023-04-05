@@ -142,14 +142,14 @@ a[title^="Filter #d-workflow"]{
 }
 
 /* ----------------------------------
-Specialized Color Labels For Color Tags 1 and 2
+Specialized Color Labels For Color Tags 3,4,5,6
 ----------------------------------*/
 .Node-contentContainer.has-color {
 	background: none;
 	position: relative;
 }
 
-.Node-contentContainer.has-color.mod-color-label-1:before {
+.Node-contentContainer.has-color.mod-color-label-3:before {
 	content: "";
 	position: absolute;
 	top: 0px;
@@ -158,14 +158,14 @@ Specialized Color Labels For Color Tags 1 and 2
 	height: 22px;
 	border-radius: 2px;
 }
-.Node-contentContainer.has-color.mod-color-label-1:before {
+.Node-contentContainer.has-color.mod-color-label-3:before {
 	background: FireBrick;
 }
 
-.Node-contentContainer.has-color.mod-color-label-2:before {
+.Node-contentContainer.has-color.mod-color-label-4:before {
 	background: #ff8700;
 }
-.Node-contentContainer.has-color.mod-color-label-2:before {
+.Node-contentContainer.has-color.mod-color-label-4:before {
 	content: "";
 	position: absolute;
 	top: 0px;
@@ -175,7 +175,7 @@ Specialized Color Labels For Color Tags 1 and 2
 	border-radius: 2px;
 }
 
-.Node-contentContainer.has-color.mod-color-label-3:before {
+.Node-contentContainer.has-color.mod-color-label-5:before {
 	content: "";
 	position: absolute;
 	top: 0px;
@@ -184,11 +184,11 @@ Specialized Color Labels For Color Tags 1 and 2
 	height: 22px;
 	border-radius: 2px;
 }
-.Node-contentContainer.has-color.mod-color-label-3:before {
+.Node-contentContainer.has-color.mod-color-label-5:before {
 	background: #007510 !important;
 }
 
-.Node-contentContainer.has-color.mod-color-label-4:before {
+.Node-contentContainer.has-color.mod-color-label-6:before {
 	content: "";
 	position: absolute;
 	top: 0px;
@@ -197,14 +197,14 @@ Specialized Color Labels For Color Tags 1 and 2
 	height: 22px;
 	border-radius: 2px;
 }
-.Node-contentContainer.has-color.mod-color-label-4:before {
+.Node-contentContainer.has-color.mod-color-label-6:before {
 	background: Black !important;
 }
 
 /*----------------------------------
 Specialized Color Labels For Color Tags 3,4,5,6
 ----------------------------------*/
-.set-color-label[data-color="5"], .Node-contentContainer.mod-color-label-5 {
+.set-color-label[data-color="1"], .Node-contentContainer.mod-color-label-1 {
 	background: #fce3e3 !important;
 	padding-left: 4.2px !important;
 	border-left: solid FireBrick;
@@ -212,7 +212,7 @@ Specialized Color Labels For Color Tags 3,4,5,6
 	left: -2.5px;
 	max-width: 70%;
 }
-.set-color-label[data-color="6"], .Node-contentContainer.mod-color-label-6 {
+.set-color-label[data-color="2"], .Node-contentContainer.mod-color-label-2 {
 	background: #cae3cd !important;
 	padding-left: 4.2px !important;
 	border-left: solid #007510;
